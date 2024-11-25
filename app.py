@@ -111,8 +111,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-api_key="a"
-genai.configure(api_key=api_key)
+# Configure API Key
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+genai.configure(api_key=GOOGLE_API_KEY)
 
 # Custom card container
 def card_container(title, content):
