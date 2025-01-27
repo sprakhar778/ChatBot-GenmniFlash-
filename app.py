@@ -129,9 +129,7 @@ st.markdown("""
     <h1 style='text-align: center; color: #1e3d59; margin-bottom: 2rem;'>
         🤖 AI Assistant Hub
     </h1>
-    <p style='text-align: center; color: #666; font-size: 1.2rem; margin-bottom: 3rem;'>
-        Explore the power of Google's Generative AI (Gemini)
-    </p>
+  
 """, unsafe_allow_html=True)
 
 # Sidebar with gradient background
